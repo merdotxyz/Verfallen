@@ -183,12 +183,17 @@ button:hover {
 
 /*mobile*/
 
+@media screen and (max-width: 1300px) and (max-height: 1366px) {
+    body {
+        background-size: cover;
+        
+    
+    }
+}
+
 @media screen and (max-width: 390px) and (max-height: 844px) {
 
     body {
-        background-color: white;
-        background-image: url();
-        background-repeat: no-repeat;
         background-size: cover;
         
     
